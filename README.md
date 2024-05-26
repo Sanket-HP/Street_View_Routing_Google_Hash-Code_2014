@@ -20,7 +20,8 @@ Need To schedule the movment to the cars to ensure they cover the maximim length
 ## Input Data
 The input data provided in a plain text file with following structure.
 
-1. First Line;
+1. First Line:
+   
          - 'N' Number of junctions
          - 'M' Number of streets.
          - 'T' Virtual time in seconds allowed for the cars itieraries.
@@ -29,6 +30,7 @@ The input data provided in a plain text file with following structure.
 
 2. Next N Lines: Each line contains the geographical coordinates (latitude and longitude) of a junction.
 3. Next M Lines: Each line describes a street with:
+   
 - Aj, Bj: Indices of the junctions connected by the street.
 - Dj: Direction of the street (1 for one-directional, 2 for bi-directional).
 - Cj: Time cost to traverse the street.
