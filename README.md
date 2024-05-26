@@ -34,22 +34,22 @@ The input data provided in a plain text file with following structure.
 - Cj: Time cost to traverse the street.
 - Lj: Length of the street.
 
-# Example Input
+## Example Input
 
-3 2 3000 2 0
-48.8582   2.2945
-50.0  3.00
-51.424242    3.02 
-0 1 1 30    250
-1 2 2 45   200
+- 3 2 3000 2 0
+- 48.8582   2.2945
+- 50.0  3.00
+- 51.424242    3.02 
+- 0 1 1 30    250
+- 1 2 2 45   200
 
-# This means:
+## This means:
 
 -3 junctions, 2 streets, 3000 seconds allowed, 2 cars, starting at junction 0.
 -Junction coordinates are given.
 -Street details follow.
 
-# Movement of Cars
+## Movement of Cars
 - Cars start at the specified junction S.
 - The itinerary for each car must fit within the given virtual time T.
 - Traversing a street more than once or in both directions (if bi-directional) does not increase the score.
@@ -60,17 +60,17 @@ Your solution must be described in a plain text file with:
 - A single natural number indicating the number of cars.
 - For each car, the number of junctions visited followed by the list of junctions in the order they were visited.
 
-# Example Of Output
+## Example Of Output
 
-2
-1
-0
-3
-0
-1
-2
+- 2
+- 1
+- 0
+- 3
+- 0
+- 1
+- 2
 
-# This means:
+## This means:
 
 - 2 cars.
 - First car stays at junction 0.
