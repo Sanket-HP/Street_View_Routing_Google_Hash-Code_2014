@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Street View Scheduler</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Google Street View Scheduler</h1>
+        <form id="input-form">
+            <label for="junctions">Number of Junctions:</label>
+            <input type="number" id="junctions" name="junctions" required>
+            
+            <label for="streets">Number of Streets:</label>
+            <input type="number" id="streets" name="streets" required>
+            
+            <label for="total-time">Total Time:</label>
+            <input type="number" id="total-time" name="total-time" required>
+            
+            <label for="cars">Number of Cars:</label>
+            <input type="number" id="cars" name="cars" required>
+            
+            <label for="start-junction">Starting Junction:</label>
+            <input type="number" id="start-junction" name="start-junction" required>
+            
+            <div id="junctions-coordinates">
+                <h3>Junction Coordinates</h3>
+                <p>Enter latitude and longitude for each junction.</p>
+            </div>
+            
+            <div id="streets-details">
+                <h3>Streets Details</h3>
+                <p>Enter details for each street.</p>
+            </div>
+            
+            <button type="submit">Submit</button>
+        </form>
+        
+        <div id="output">
+            <h2>Output</h2>
+            <pre id="result"></pre>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
