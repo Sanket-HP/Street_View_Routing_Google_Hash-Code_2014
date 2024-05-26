@@ -52,6 +52,7 @@ The input data provided in a plain text file with following structure.
 -Street details follow.
 
 ## Movement of Cars
+
 - Cars start at the specified junction S.
 - The itinerary for each car must fit within the given virtual time T.
 - Traversing a street more than once or in both directions (if bi-directional) does not increase the score.
