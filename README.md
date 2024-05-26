@@ -47,9 +47,9 @@ The input data provided in a plain text file with following structure.
 
 ## This means:
 
--3 junctions, 2 streets, 3000 seconds allowed, 2 cars, starting at junction 0.
--Junction coordinates are given.
--Street details follow.
+- 3 junctions, 2 streets, 3000 seconds allowed, 2 cars, starting at junction 0.
+- Junction coordinates are given.
+- Street details follow.
 
 ## Movement of Cars
 
